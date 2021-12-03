@@ -1,0 +1,33 @@
+﻿<Window
+    x:Class="CircularChartDesktop.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:viewModel="using:CircularChartDesktop"
+    xmlns:chart="using:Syncfusion.UI.Xaml.Charts"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid>
+        <chart:SfCircularChart Height="500" Width="600">
+
+            <chart:SfCircularChart.DataContext>
+                <viewModel:ViewModel/>
+            </chart:SfCircularChart.DataContext>
+
+            <chart:SfCircularChart.Legend>
+                <chart:ChartLegend ItemMargin="5" Orientation="Vertical" DockPosition="Floating" OffsetX="800" OffsetY="60"/>
+            </chart:SfCircularChart.Legend>
+
+            <chart:SfCircularChart.Series>
+                <chart:PieSeries LegendIcon="Circle" Palette="BlueChrome" ItemsSource="{Binding Data}"
+                        XBindingPath="Country" 
+                        YBindingPath="Counts"
+                       ShowDataLabels="True">
+                </chart:PieSeries>
+            </chart:SfCircularChart.Series>
+
+        </chart:SfCircularChart>
+    </Grid>
+
+</Window>
