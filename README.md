@@ -4,6 +4,8 @@ The WinUI Pie Chart is a circular graph that is ideal for displaying proportiona
 
 The User Guide Documentation helps you to acquire more knowledge on charts and their features. You can also refer to the Feature Tour site to get an overview of all the features in the chart.
 
+![.NET MAUI Pie Chart](https://user-images.githubusercontent.com/63223423/144578562-89a60e58-4001-4eed-98b3-40cccbaf7b98.png)
+
 ### Step 1: 
 Create a simple project using the instructions given in the Getting Started with your first WinUI app documentation.
 
