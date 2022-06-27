@@ -7,14 +7,14 @@
   IgnorableNamespaces="uap rescap">
 
   <Identity
-    Name="6d81586b-315e-4d9f-b850-6a90b2141f16"
-    Publisher="CN=LavanyaAnaimuthu"
+    Name="33ec1cc8-7946-4d4e-a0b8-fa0d549ce655"
+    Publisher="CN=NaveenkumarSanjeevir"
     Version="1.0.0.0" />
 
   <Properties>
-    <DisplayName>CircularChartDesktop (Package)</DisplayName>
-    <PublisherDisplayName>LavanyaAnaimuthu</PublisherDisplayName>
-    <Logo>Images\StoreLogo.png</Logo>
+    <DisplayName>CircularChartDesktop</DisplayName>
+    <PublisherDisplayName>NaveenkumarSanjeevir</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
 
   <Dependencies>
@@ -31,13 +31,13 @@
       Executable="$targetnametoken$.exe"
       EntryPoint="$targetentrypoint$">
       <uap:VisualElements
-        DisplayName="CircularChartDesktop (Package)"
-        Description="CircularChartDesktop (Package)"
+        DisplayName="CircularChartDesktop"
+        Description="CircularChartDesktop"
         BackgroundColor="transparent"
-        Square150x150Logo="Images\Square150x150Logo.png"
-        Square44x44Logo="Images\Square44x44Logo.png">
-        <uap:DefaultTile Wide310x150Logo="Images\Wide310x150Logo.png" />
-        <uap:SplashScreen Image="Images\SplashScreen.png" />
+        Square150x150Logo="Assets\Square150x150Logo.png"
+        Square44x44Logo="Assets\Square44x44Logo.png">
+        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" />
+        <uap:SplashScreen Image="Assets\SplashScreen.png" />
       </uap:VisualElements>
     </Application>
   </Applications>
