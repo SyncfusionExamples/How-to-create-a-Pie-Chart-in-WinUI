@@ -16,7 +16,7 @@
             </chart:SfCircularChart.DataContext>
 
             <chart:SfCircularChart.Legend>
-                <chart:ChartLegend ItemMargin="5"/>
+                <chart:ChartLegend ItemMargin="5" Placement="Right"/>
             </chart:SfCircularChart.Legend>
 
             <chart:SfCircularChart.Series>
