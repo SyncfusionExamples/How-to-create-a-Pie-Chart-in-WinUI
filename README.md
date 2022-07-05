@@ -112,9 +112,9 @@ As we are going to visualize the comparison of the annual population of various 
 
 <chart:SfCircularChart.Series>
     <chart:PieSeries ItemsSource="{Binding Data}"
-                        XBindingPath="Country" 
-                        YBindingPath="Counts"
-                       ShowDataLabels="True">
+                     XBindingPath="Country" 
+                     YBindingPath="Counts"
+                     ShowDataLabels="True">
     </chart:PieSeries>
 </chart:SfCircularChart.Series>
 …
@@ -123,7 +123,7 @@ As we are going to visualize the comparison of the annual population of various 
 **[C#]**
 ```
 SfCircularChart chart = new SfCircularChart ();
-chart.BindingContext = new ViewModel();
+chart.DataContext = new ViewModel();
 . . .
 var binding = new Binding() { Path = "Data" };
 var series = new PieSeries()
