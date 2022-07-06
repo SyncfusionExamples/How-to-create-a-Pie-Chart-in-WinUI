@@ -16,11 +16,11 @@
             </chart:SfCircularChart.DataContext>
 
             <chart:SfCircularChart.Legend>
-                <chart:ChartLegend ItemMargin="5" Orientation="Vertical" DockPosition="Floating" OffsetX="800" OffsetY="60"/>
+                <chart:ChartLegend ItemMargin="5" Placement="Right"/>
             </chart:SfCircularChart.Legend>
 
             <chart:SfCircularChart.Series>
-                <chart:PieSeries LegendIcon="Circle" Palette="BlueChrome" ItemsSource="{Binding Data}"
+                <chart:PieSeries LegendIcon="Circle" ItemsSource="{Binding Data}"
                         XBindingPath="Country" 
                         YBindingPath="Counts"
                        ShowDataLabels="True">
